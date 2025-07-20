@@ -8,8 +8,7 @@ glob llm = Model(
     verbose=False
 );
 
-"""Generate a creative and fun hint about the correct animal when the guess is wrong! 
-Make it engaging and give clues about the animal's characteristics, habitat, or behavior."""
+"""Generate a hint about the correct animal"""
 def give_animal_hint(wrong_guess: str, correct_animal: str, attempt_number: int) -> str by llm();
 
 walker AnimalGame {
