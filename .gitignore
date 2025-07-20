@@ -1,0 +1,19 @@
+# Ignore virtual environment
+jac_env/
+
+# Ignore database files
+mydatabase/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
